@@ -8,3 +8,9 @@ const binarySearch = (arr, L, R, target) => {
 
   return -1;
 };
+
+const arr = [];
+
+for (let i = 100; i < 400; i += 1) arr.push(i);
+
+console.log(binarySearch(arr, 0, arr.length - 1, 100 ));
